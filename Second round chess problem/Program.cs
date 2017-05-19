@@ -83,7 +83,7 @@ namespace second_round
 
                 return board[input3 -1, input4-1];
             }
-            return 0;
+            return -1;
         }
     }
 }
