@@ -59,7 +59,7 @@ namespace second_round
                     }
                 }
 
-                board[input1, input2] = 0;
+                board[input1 - 1, input2 - 1] = 0;
 
                 for (int step = 0; step < 7; step++)
                 {
@@ -81,7 +81,7 @@ namespace second_round
                     }
                 }
 
-                return board[input3, input4];
+                return board[input3 -1, input4-1];
             }
             return 0;
         }
